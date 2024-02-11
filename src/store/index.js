@@ -26,9 +26,9 @@ const store = createStore({
       state.notes.splice(noteID, 1);
       updateLocalStorage(state.notes)
     },
-    GetRandomColor(){
-      return 'hsl(' + Math.random() * 360 + ', 100%, 90%)';
-    },
+    // GetRandomColor(){
+    //   return 'hsl(' + Math.random() * 360 + ', 100%, 90%)';
+    // },
   },
 });
 
